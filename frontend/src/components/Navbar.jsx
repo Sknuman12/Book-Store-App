@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import Login from './Login'
+import { Link } from 'react-router-dom'
 
 
 export const Navbar = () => {
   const [sticky, setSticky] = useState(false)
   useEffect(() => {
-    const handleScroll = ()=>{
+    const handleScroll = () => {
       if(window.scrollY>0){
         setSticky(true)
       }
@@ -39,7 +40,7 @@ export const Navbar = () => {
      {navtimes}
       </ul>
     </div>
-    <a className=" text-xl font-bold">bookStore</a>
+    <Link to={'/'} className=" text-xl font-bold cursor-pointer">bookStore</Link>
   </div>
   <div className='navbar-end space-x-3'>
   <div className="navbar-center hidden lg:flex">

@@ -54,8 +54,6 @@ export const Freebook = () => {
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, optio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, dolores.
         </p>
    </div>
- 
-
     <div>
     <Slider {...settings}>
       {filterData.map((item)=>(

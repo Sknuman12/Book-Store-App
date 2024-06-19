@@ -20,8 +20,7 @@ function Course() {
           {
             list.map((item)=>(
               <Cards key={item.id} item={item}/>
-            ))}
-           
+            ))} 
         </div>
     </div>
     </>

@@ -1,11 +1,11 @@
 import React from 'react'
 
 export const Cards = ({item}) => {
-    console.log(item);
+    // console.log(item);
   return (
    <>
-   <div className='mt-3'>
-   <div className="card w-96 bg-base-100 shadow-xl hover:scale-105 duration-200">
+   <div className='mt-4 my-3 py-3'>
+   <div className="card w-92 bg-base-100 shadow-xl hover:scale-105 duration-200">
   <figure><img src={item.image} alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">
